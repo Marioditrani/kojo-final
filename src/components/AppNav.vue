@@ -95,7 +95,7 @@
 
           <div class="sec-1">
             <h4>Dove puoi trovarci</h4>
-            <p>Borghetto | via borghetto 69</p>
+            <p>Monsano</p>
           </div>
 
           <div class="sec-2">
@@ -121,7 +121,7 @@
         </div>
 
         <div :class="state.infomenu ? 'sec-3' : 'sec-3-off'" >
-          Capriccio di leo S.r.l, PI: 1231231231231, privacy policy, product by FUTURE+
+          Kojo sushi, PI: 1231231231231, privacy policy, product by FUTURE+
         </div>
 
       </div>

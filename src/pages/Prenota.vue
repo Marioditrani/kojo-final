@@ -816,8 +816,7 @@
     width: 40%!important;
   }
  .bacchette-respo{
-  position: fixed;
-  left: 0;
+  
   transform: rotateZ(0)!important;
   transform: scaleX(-1)!important; 
   }
