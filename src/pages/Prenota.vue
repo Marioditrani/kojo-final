@@ -606,7 +606,7 @@
   position: fixed;
   right: 15px;
   bottom: 0;
-  z-index: 11;
+  z-index: 11000;
   
   .img-cart{
     display: flex;
