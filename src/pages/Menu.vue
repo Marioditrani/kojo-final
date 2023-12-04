@@ -215,7 +215,7 @@
     .menu-right{
       width: 90%;
       .menu-top{
-        height: 20%;
+        
         display: flex;
         justify-content: space-between;
         h1{
@@ -482,9 +482,7 @@
         }
       }
     }
-    .menu-bottom{
-      margin-top: 10rem;
-    }
+    
     
     .bac-respo{
       display: block!important;

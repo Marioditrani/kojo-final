@@ -412,7 +412,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 4rem 1rem;
+        margin: 6rem 1rem;
         margin-bottom: 130px;
           
           img{
@@ -437,7 +437,7 @@
           .c-tp{
           background-color: #AB2F2F;
           position: relative;
-          z-index: 10000;
+          z-index: 10;
           width: 100%;
           height: 100%;
           display: flex;
@@ -599,10 +599,14 @@
 /***** */
 
 .cart-close{
-  display: none;
+  
   display: flex;
   justify-content: flex-end;
   padding: 1rem 0;
+  position: fixed;
+  right: 15px;
+  bottom: 0;
+  z-index: 11;
   
   .img-cart{
     display: flex;
@@ -619,7 +623,10 @@
 .cart{
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: fixed;
+  right: 0px;
+  bottom: 0;
+  z-index: 12000;
   box-shadow: -40px 50px 100px black ;
   .img-cartclose{
     display: flex;
@@ -640,7 +647,7 @@
   border: 3px solid white;
   background-color: #523333;
   max-width: 450px;
-  width: 100%;
+  width: 90%;
   border-radius: 50px;
   padding: .4rem;
   margin: 0 auto;
