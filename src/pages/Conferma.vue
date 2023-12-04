@@ -339,6 +339,7 @@ export default {
   padding: 1rem;
 }
 .bottom-cart{
+  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -523,7 +524,7 @@ export default {
   opacity: 1;
   transition: all .2s linear .2s;
   font-size: 20px;
-  padding: 1rem 0rem;
+  padding: 1.1rem .5rem;
   div{
     width: 45%;
   }
