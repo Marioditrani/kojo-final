@@ -432,7 +432,7 @@
           left:45px;
           top:20px;
           z-index: 10001;
-          padding: .5rem;
+          padding-top: 1rem;
           }
           .c-tp{
           background-color: #AB2F2F;
@@ -450,14 +450,15 @@
             .tags, .price{
               border-radius: 10px;
             width: 100%;
-            padding-right: .5rem;
+            padding-right: 5rem;
             padding-bottom: .5rem;
+            
             }
             .tags{
   
               display: flex;
-            padding-top: 1rem;
-            padding-right: .5rem;
+            padding-top: 1.5rem;
+            padding-right: .1rem;
             span{
               font-size: 13px;
               font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -624,7 +625,7 @@
   display: flex;
   flex-direction: column;
   position: fixed;
-  right: 0px;
+  margin-bottom: 10px;
   bottom: 0;
   z-index: 12000;
   box-shadow: -40px 50px 100px black ;
@@ -650,7 +651,7 @@
   width: 90%;
   border-radius: 50px;
   padding: .4rem;
-  margin: 0 auto;
+  
   .top-cart{
     padding: .2rem;
     @include dfc;
@@ -761,7 +762,7 @@
   }
 
   .card-wrap{
-    width: 95%!important;
+    width: 55%!important;
   }
   
   .bacchette{
