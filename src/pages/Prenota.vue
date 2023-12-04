@@ -450,7 +450,7 @@
             .tags, .price{
               border-radius: 10px;
             width: 100%;
-            padding-right: 5rem;
+            
             padding-bottom: .5rem;
             
             }
