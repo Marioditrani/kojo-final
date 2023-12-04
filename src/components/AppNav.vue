@@ -243,6 +243,10 @@ height: 100vh;
 background-color: $c-nav;
 width: 30%;
 text-align: center;
+-webkit-box-shadow: 0px 4px 10px 2px #000000;
+-moz-box-shadow: 0px 4px 10px 2px #000000;
+-o-box-shadow: 0px 4px 10px 2px #000000;
+box-shadow: 0px 4px 10px 2px #000000;
 .top{
   @include dfc;
   justify-content: space-around;
